@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+ <meta charset="UTF-8" />
+ <link rel="stylesheet" href="../css/style.css"/>
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.common.js"></script>
+<script src="../js/form.js"></script>
+ <title>Inscription</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+	 <img src="../image/Logo_de_l'Institut.png" class="logo" alt="Logo institut de Genech" />
+
+  <h1>Inscription</h1>
+  <div class = "box">
+  <form class="" action="../php/formInscription.php" method="post">
+    <label for="nom">Nom</label><br>
+    <input id="nom" type="text" name="nom" value=""><br>
+    <label for="prenom">Prénom</label><br>
+    <input id="prenom" type="text" name="prenom" value=""><br>
+    <label for="login">Identifiant</label><br>
+    <input id="login" type="text" name="login" value="" required = "required"><br>
+    <label for="email">Courriel</label><br>
+    <input id="email" type="email" name="email" value="" required="required"><br>
+    <label for="password">Mot de Passe</label><br>
+    <input id="password" type="password" name="password" value="" required="required"><br>
+    <input type="submit" name="submit" value="S'inscrire">
+  </form>
+  <p>Déjà inscrit?</p>
+  <a href="../index.html">Se connecter</a>
+  </div>
+</body>
+</html>

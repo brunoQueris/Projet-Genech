@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+ <meta charset="UTF-8" />
+ <link rel="stylesheet" href="css/style.css"/>
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.common.js"></script>
+<script src="./js/form.js"></script>
+ <title>Connexion</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+
+
+	 <img src="./image/Logo_de_l'Institut.png" class="logo" alt="Logo institut de Genech" />
+
+  <h1>Connexion</h1>
+
+  <div class = "box">
+
+  <form id="form" method="post" action="php/formConnexion.php">
+    <label for="login">Identifiant</label><br>
+    <input type="text" name="login" id="login" required ="required" size="25"><br>
+    <label for="password">Mot de passe</label><br>
+    <input type="password" name="password" id="password" required="required" size="25"><br>
+    <input id="submit" type="submit" name="valid" value="Se connecter" /><br>
+    <a href="html/passwordRecovery.html">Mot de passe oublier?</a><br>
+  </form>
+
+  <p> <a href="html/inscription.html">S'inscrire</a> </p>
+
+</div>
+</body>
+</html>

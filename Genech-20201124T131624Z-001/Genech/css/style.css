@@ -1,0 +1,39 @@
+
+
+h1{
+  text-align: center;
+  color:#960002;
+  font-style: italic;
+  font-family: 'Trocchi', serif; font-size: 45px;
+  padding: 15PX;
+  text-shadow: -1px -1px , 1px 1px , -3px 0 4px #000;
+  font-size: 60PX;
+  box-shadow:3px 3px 6px #888;
+  margin:auto;
+  max-width:450px;
+
+}
+
+@media (min-width:768px){}
+
+img{
+	margin:auto;
+margin-top:15px;	
+display:block;
+width: 100%;
+  max-width: 500px;
+}
+
+.box{
+	max-width:450px;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+  background-color: beige;
+  box-shadow:3px 3px 6px #888;
+  text-align: center;
+  padding: 15PX;
+  font-size: 20px;
+  
+}
+
